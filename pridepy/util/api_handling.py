@@ -8,7 +8,7 @@ from typing import Optional, Dict, List, Any
 import httpx
 import requests
 import logging
-from ratelimit import limits, sleep_and_retry
+from pridepy.ratelimit import limits, sleep_and_retry
 from requests import get, RequestException
 from requests.adapters import HTTPAdapter
 from tqdm import tqdm
